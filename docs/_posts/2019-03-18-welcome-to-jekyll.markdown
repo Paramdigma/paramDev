@@ -1,6 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title: A post
+subtitle: Post subtitle
+toc: true
+author: Alan Rynne
+header:
+  size: large
+  particles: true
+  gradient: false
+  color: alert
+  
 date:   2019-03-18 23:54:10 +0100
 categories: jekyll update
 ---
