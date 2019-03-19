@@ -33,9 +33,9 @@ paginate_path: "/blog/page:num/"
 main_nav:
   - title: Home
     url: /
-  - title: About Me
+  - title: About
     url: /about
-  - title: blog
+  - title: Blog
     url: /blog
   - title: Go to author's site
     url: http://rynne.es
