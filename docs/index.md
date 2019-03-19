@@ -10,14 +10,49 @@ toc: true
 ---
 
 <div id="tab1" class="tab-content">
-<h1>Some title</h1>
-<h2>Some title</h2>
-<h3>Some title</h3>
-<h4>Some title</h4>
-<h5>Some title</h5>
-<h6>Some title</h6>
-<blockquote>Some blockquote</blockquote>
-<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+<!-- START ARTICLE -->
+<div class="card post-entry">
+    <div class="media" style="background-image: url(https://dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Office_Buildings_Demand_Response_XL_721_420_80_s_c1.jpg)">
+    </div>
+  <div class="card-content">
+    
+    <h2 class="has-text-centered">{{post.title}}</h2>
+    <div class="tags has-addons level-item">
+      <span class="tag is-rounded is-primary">{{ post.author }}</span>
+      <span class="tag is-rounded">{{ post.date | date_to_long_string}}</span>
+    </div>
+    <div class="content">
+      {{ post.content | truncatewords: 50 }}
+    </div>
+  </div>
+</div>
+<!-- END ARTICLE -->
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="section">
+  <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path }}" class="pagination-previous">Previous</a>
+  {% else %}
+  <a class="pagination-previous" disabled>Previous</a>
+  {% endif %}
+
+  <ul class="pagination-list">
+    <li>Page: {{ paginator.page }} of {{ paginator.total_pages }}</li>
+  </ul>
+
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path }}" class="pagination-next">Next</a>
+  {% else %}
+  <a class="pagination-next" disabled>Next</a>
+  {% endif %}
+</nav>
+</div>
+
 </p>
 
 </div>
