@@ -32,11 +32,11 @@ plugins:
 
 main_nav:
   - title: Home
-    url: /
+    url: ./
   - title: About Me
-    url: /about
+    url: ./about
   - title: blog
-    url: /blog
+    url: ./blog
   - title: Go to author's site
     url: http://rynne.es
     button: true
