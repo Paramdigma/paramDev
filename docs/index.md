@@ -53,8 +53,6 @@ toc: true
 </nav>
 </div>
 
-</p>
-
 </div>
 <div id="tab2" class="content tab-content">
 <a class="button">Anchor</a>
