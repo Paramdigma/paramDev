@@ -30,6 +30,19 @@ remote_theme: AlanRynne/Rynne-Jekyll-Theme
 plugins:
   - jekyll-feed
 
+main_nav:
+  - title: Home
+    url: /
+  - title: About Me
+    url: /about
+  - title: blog
+    url: /blog
+  - title: Go to author's site
+    url: http://rynne.es
+    button: true
+    icon: fas fa-envelope
+    external: true
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
