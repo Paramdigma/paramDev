@@ -27,6 +27,7 @@ markdown: kramdown
 remote_theme: AlanRynne/Rynne-Jekyll-Theme
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 main_nav:
   - title: Home
