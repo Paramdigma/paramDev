@@ -5,6 +5,7 @@ header:
   size: large
   particles: true
   gradient: true
+  color: primary
 toc: true
 ---
 
