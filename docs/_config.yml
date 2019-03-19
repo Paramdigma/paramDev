@@ -28,6 +28,8 @@ remote_theme: AlanRynne/Rynne-Jekyll-Theme
 plugins:
   - jekyll-feed
 
+paginate_path: "/blog/page:num/"
+
 main_nav:
   - title: Home
     url: /
