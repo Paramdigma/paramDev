@@ -1,5 +1,5 @@
 ---
-title: Title 6
+title: Title 7
 layout: default
 header:
   size: large
