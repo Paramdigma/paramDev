@@ -11,9 +11,7 @@ toc: true
 
 <div id="tab1" class="tab-content">
 
-<!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-<!-- START ARTICLE -->
 <div class="card post-entry">
     <div class="media" style="background-image: url(https://dqbasmyouzti2.cloudfront.net/assets/content/cache/made/content/images/articles/Office_Buildings_Demand_Response_XL_721_420_80_s_c1.jpg)">
     </div>
@@ -29,10 +27,9 @@ toc: true
     </div>
   </div>
 </div>
-<!-- END ARTICLE -->
 {% endfor %}
 
-<!-- Pagination links -->
+
 <div class="section">
   <nav class="pagination is-centered" role="navigation" aria-label="pagination">
   {% if paginator.previous_page %}
