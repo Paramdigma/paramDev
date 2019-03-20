@@ -46,11 +46,8 @@ main_nav:
     url: /about
   - title: Blog
     url: /blog
-  - title: Go to author's site
-    url: http://rynne.es
-    button: true
-    icon: fas fa-envelope
-    external: true
+  - title: Contact
+    url: /contact
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
