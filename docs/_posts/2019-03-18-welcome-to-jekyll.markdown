@@ -8,7 +8,7 @@ header:
   size: large
   particles: true
   gradient: false
-  color: alert
+  color: link
 date: 2019-03-18
 categories: jekyll update
 ---

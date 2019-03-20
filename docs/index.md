@@ -3,7 +3,7 @@ title: Welcome to Paramdigma!
 subtitle: Parametric Architecture <i class="far fa-heart"></i> Computational Design 
 layout: default
 header:
-  size: large
+  size: fullheight
   particles: true
   gradient: true
 tabs:
