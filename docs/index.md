@@ -1,6 +1,6 @@
 ---
 title: Welcome to Paramdigma!
-subtitle: Computational Design <i class="far fa-heart"></i>
+subtitle: Parametric Architecture <i class="far fa-heart"></i> Computational Design 
 layout: default
 header:
   size: large
@@ -13,6 +13,12 @@ tabs:
 
 <div id="Overview" class="tab-content is-active">
 
+  <a class="button is-primary">Primary</a>
+  <a class="button is-link">Link</a>
+  <a class="button is-info">Info</a>
+  <a class="button is-success">Success</a>
+  <a class="button is-warning">Warning</a>
+  <a class="button is-danger">Danger</a>
 
 </div>
 
